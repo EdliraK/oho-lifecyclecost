@@ -1,0 +1,7193 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/oho-cost" ],
+    "title" : {
+      "undefined" : "OHO: an Offsite Housing Ontology"
+    },
+    "iri" : "https://w3id.org/oho-cost#",
+    "author" : [ "Edlira Vakaj" ],
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Edlira Vakaj",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Kudirat Ayinla",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Abdel-Rahman Tawil",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Franco Cheung",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "OHO: an Offsite Housing Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "292",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "295",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "311",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "312",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "181",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "320",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "322",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "323",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "324",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "325",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "326",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "328",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "333",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "334",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "335",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "336",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "337",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "339",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "341",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "349",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "358",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "217",
+    "type" : "owl:Class"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "360",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "361",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "238",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "368",
+    "type" : "owl:Class"
+  }, {
+    "id" : "438",
+    "type" : "owl:Class"
+  }, {
+    "id" : "276",
+    "type" : "owl:Class"
+  }, {
+    "id" : "297",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "447",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "452",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "355",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "357",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "453",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "407",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "456",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "352",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "463",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "401",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "405",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "475",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "397",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "451",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "468",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "462",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "233",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "0",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Podsub-assembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Podsub-assembly"
+    },
+    "subClasses" : [ "33", "34" ],
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Storage",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Storage"
+    },
+    "id" : "78",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Silver",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Silver"
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#TransportationOP",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "TransportationOP"
+    },
+    "id" : "116",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPMforPanelCladdingS-A",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPMforPanelCladdingS-A"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#WindowAndFrenchDoor",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "WindowAndFrenchDoor"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#CementBoard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "CementBoard"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#EntranceDoor",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "EntranceDoor"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Adhesive",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Adhesive"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BreatherMembrane",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BreatherMembrane"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#InsulationBoard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "InsulationBoard"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BrickSlips",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "BrickSlips"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#HatChannelsAndSupportRails",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HatChannelsAndSupportRails"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#CandiwallBackingBoard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "CandiwallBackingBoard"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Clips",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Clips"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#JointTapeToCementBoard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "JointTapeToCementBoard"
+      }
+    } ],
+    "id" : "118",
+    "superClasses" : [ "119" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Modular_Production",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Modular_Production"
+    },
+    "subClasses" : [ "78", "119", "111", "73", "31", "3", "131", "116" ],
+    "id" : "32",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Site",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "id" : "138",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "153",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPMforPod_Frame_Sub_Assembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPMforPod_Frame_Sub_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#Bolts(TypeB)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Bolts(TypeB)"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ScrewBracketForPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "ScrewBracketForPod"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#HotRolledSteelMemberForPanel(TypeA)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "HotRolledSteelMemberForPanel(TypeA)"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#HotRolledSteelMemberForPanel(TypeB)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "HotRolledSteelMemberForPanel(TypeB)"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Bolts(TypeA)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Bolts(TypeA)"
+      }
+    } ],
+    "id" : "72",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "161",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "171",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Onsite_Work",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Onsite_Work"
+    },
+    "id" : "179",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#ProjectCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProjectCost"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#StickProject",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "StickProject"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#type-3",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "type-3"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#VolumetricProject",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "comment" : {
+        "undefined" : "Volumetric (All Pods) (Semi-automated line production for panels and manual assembled pods)"
+      },
+      "labels" : {
+        "IRI-based" : "VolumetricProject"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#type-1",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "type-1"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#type-2",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "type-2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#CentralPodsAndPanelsProject",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "comment" : {
+        "undefined" : "Central Pods and Panels (Semi-automated line production for panels and manual assembled pods)"
+      },
+      "labels" : {
+        "IRI-based" : "CentralPodsAndPanelsProject"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PanelisedProject",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PanelisedProject"
+      }
+    } ],
+    "subClasses" : [ "7", "53", "181", "182", "183", "127", "129", "133", "135", "137", "63", "143", "21", "146", "43", "125", "91", "96", "100", "104", "106", "108" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "184",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabour",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DirectlyProcuredLabour"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised150"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourVolumatric80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourVolumatric80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabour50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabour50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourCentralPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourCentralPod"
+      }
+    } ],
+    "id" : "133",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPLforLoading",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPLforLoading"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#PodLoadingAndUnloading",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PodLoadingAndUnloading"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#FrameAndMaterialLoadingAndUnloading",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "FrameAndMaterialLoadingAndUnloading"
+      }
+    } ],
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "206",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "209",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "221",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "223",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Architect",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Architect"
+    },
+    "id" : "24",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PodAndPanel",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PodAndPanel"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation150"
+      }
+    } ],
+    "id" : "137",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Customer_Relation",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Customer_Relation"
+    },
+    "id" : "56",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Production_Engineering__Management_and_Support",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Production_Engineering__Management_and_Support"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#Production_Engineering_Management_and_Support",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Production_Engineering_Management_and_Support"
+      }
+    } ],
+    "id" : "86",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Onsite_Support",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Onsite_Support"
+    },
+    "id" : "241",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#TransportationCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransportationCost"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#TransportationPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "TransportationPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#TransportationStick",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "TransportationStick"
+      }
+    } ],
+    "id" : "129",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PanelFramesub-assembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PanelFramesub-assembly"
+    },
+    "subClasses" : [ "110", "113" ],
+    "id" : "111",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PanelCladdingSubAssembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PanelCladdingSubAssembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#WithRendering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "WithRendering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#UPVC",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "UPVC"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Timber",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Timber"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#WithBricklSlip",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "WithBricklSlip"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#WithWeatherboard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "WithWeatherboard"
+      }
+    } ],
+    "id" : "52",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Operational",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Operational"
+    },
+    "id" : "12",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Business_Operation",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Business_Operation"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#100-200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "100-200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "150"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#21-100",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "21-100"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#1-20",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "1-20"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation150"
+      }
+    } ],
+    "id" : "104",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Repair_and_Replacement",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Repair_and_Replacement"
+    },
+    "id" : "17",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "255",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "284",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Offsite_Production",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Offsite_Production"
+    },
+    "subClasses" : [ "115", "32", "86", "52", "56", "59" ],
+    "id" : "53",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "289",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "290",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "291",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "292",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "295",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "300",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "310",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "311",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "312",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DataSource",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataSource"
+    },
+    "comment" : {
+      "undefined" : "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect."
+    },
+    "id" : "181",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#House",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "House"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#test1",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "test1"
+      }
+    } ],
+    "subClasses" : [ "62", "66", "69" ],
+    "id" : "63",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PodFramesub-assembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PodFramesub-assembly"
+    },
+    "subClasses" : [ "72", "76" ],
+    "id" : "73",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "320",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#SemiDetached",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SemiDetached"
+    },
+    "id" : "69",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "321",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Pod_Testing",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Pod_Testing"
+    },
+    "id" : "29",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "322",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "323",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "324",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "325",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "326",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "327",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "328",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "329",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "333",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "334",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "335",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "336",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "337",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "288",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "338",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "339",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "340",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "341",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "342",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "347",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "348",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Planning_and_Scheduling",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Planning_and_Scheduling"
+    },
+    "id" : "59",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "349",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Factory",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Factory"
+    },
+    "id" : "220",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "353",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#OnsiteSubStructure",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OnsiteSubStructure"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#OnsiteSubstructureAndExternalWall",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteSubstructureAndExternalWall"
+      }
+    } ],
+    "id" : "125",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "358",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Gasoline",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gasoline"
+    },
+    "id" : "217",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "359",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "360",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "277",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "361",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Detached",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Detached"
+    },
+    "comment" : {
+      "undefined" : "Type of house."
+    },
+    "id" : "66",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "294",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "374",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PackagingAndProtection",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PackagingAndProtection"
+    },
+    "id" : "131",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PlantAndEquipment",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PlantAndEquipment"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#PlantAndEquipmentCentralPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PlantAndEquipmentCentralPod"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PlantAndEquipmentVolumetric",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PlantAndEquipmentVolumetric"
+      }
+    } ],
+    "id" : "182",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#MCProfit",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MCProfit"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#MCProfitPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "MCProfitPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#MCProfitStick",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "MCProfitStick"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#MCProfitCentralPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "MCProfitCentralPod"
+      }
+    } ],
+    "id" : "127",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Panel",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Panel"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredMaterialPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredMaterialPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#UPVC",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "UPVC"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised150"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BronzeInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BronzeInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyRenderingPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyRenderingPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#SedumGreenRoof",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "SedumGreenRoof"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#GoldInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "GoldInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#FlatRoofWithSinglePlyMembrane",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "FlatRoofWithSinglePlyMembrane"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PitchedRoofWithPlasticTileCovering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PitchedRoofWithPlasticTileCovering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#WithBricklSlip",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "WithBricklSlip"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteSubstructureAndExternalWall",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteSubstructureAndExternalWall"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PitchedRoofWithSlateTileCovering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PitchedRoofWithSlateTileCovering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyWeatherboardORBrickSlipPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyWeatherboardORBrickSlipPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation150"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#WithWeatherboard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "WithWeatherboard"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Timber",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Timber"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities150"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#WithRendering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "WithRendering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#SilverInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "SilverInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PitchedRoofWithClayTileCovering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PitchedRoofWithClayTileCovering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredLabourPanelised80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredLabourPanelised80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering150"
+      }
+    } ],
+    "id" : "135",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#EnergySystem",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnergySystem"
+    },
+    "subClasses" : [ "42", "46", "49" ],
+    "id" : "43",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#LoadingAndUnloading",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "LoadingAndUnloading"
+    },
+    "subClasses" : [ "2" ],
+    "id" : "3",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPLforPanelFrameSubAssembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPLforPanelFrameSubAssembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#InspectionStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "InspectionStation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ManualReworkStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ManualReworkStation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#TEKScrewStation1",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "TEKScrewStation1"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PanelTurnoverAndToolingReturnStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PanelTurnoverAndToolingReturnStation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ToolingSetUpStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ToolingSetUpStation"
+      }
+    } ],
+    "id" : "113",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#In_Use",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "In_Use"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#SilverInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "SilverInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BronzeInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BronzeInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#GoldInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "GoldInUse"
+      }
+    } ],
+    "subClasses" : [ "6", "12", "17" ],
+    "id" : "7",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Structural_Engineer",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Structural_Engineer"
+    },
+    "id" : "238",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Design_and_Engineering",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Design_and_Engineering"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DesignAndEngineering150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DesignAndEngineering150"
+      }
+    } ],
+    "subClasses" : [ "20", "24", "29", "233", "238" ],
+    "id" : "21",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Diesel",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Diesel"
+    },
+    "id" : "214",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPMforPanelFrameS-A",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPMforPanelFrameS-A"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#Bolts-A",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model Extraction",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Bolts-A"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Bolts-B",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model Extraction",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Bolts-B"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ColdRolledSteelMemberForPanel(TypeC)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model Extraction",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ColdRolledSteelMemberForPanel(TypeC)"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ColdRolledSteelMemberForPanel(TypeB)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model Extraction",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ColdRolledSteelMemberForPanel(TypeB)"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ColdRolledSteelMemberForPanel(TypeA)",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "BIM Model Extraction",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ColdRolledSteelMemberForPanel(TypeA)"
+      }
+    } ],
+    "id" : "110",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPMforPod_Sub_Assembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPMforPod_Sub_Assembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#Plasterboard",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Plasterboard"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#StairsAndBalustrades",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "StairsAndBalustrades"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ShowerThermostaticMixer",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ShowerThermostaticMixer"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#HeatDetector",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HeatDetector"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#HotWaterCylinderType",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HotWaterCylinderType"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#LightingCable",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "LightingCable"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Taps",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Taps"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BatterySystem",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "BatterySystem"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DrainagePipe",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DrainagePipe"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#KicthenMixer",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "KicthenMixer"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#HotAndColdWaterPipe",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "HotAndColdWaterPipe"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PendantLights",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PendantLights"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#LightSwitches",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "LightSwitches"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ElectricityCable",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "ElectricityCable"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Basin",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Basin"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ShowerScreen",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ShowerScreen"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#CO2Detector",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "CO2Detector"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#KitchenCabinets",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "KitchenCabinets"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#LampsToBeSupplied",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "LampsToBeSupplied"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#EnergyAndFaultMonitoringRequired",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "EnergyAndFaultMonitoringRequired"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#MVHR",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MVHR"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ElectricalInstallationType",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ElectricalInstallationType"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#TimberStuds",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "TimberStuds"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#SolarPV",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SolarPV"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Sockets",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Sockets"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PanelHeaters",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PanelHeaters"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#WaterCistern",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "WaterCistern"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#TelephoneAndTVDistribution",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "TelephoneAndTVDistribution"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Bathtub",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Bathtub"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#InsulationToExternalWall",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "InsulationToExternalWall"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#JointTapeToInternalWalls",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "JointTapeToInternalWalls"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DataCable",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "DataCable"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BathroomCabinets",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "BathroomCabinets"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#KitchenSink",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "KitchenSink"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#RecessedLights",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "RecessedLights"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#SmokeDetector",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Quantity conversation factor datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SmokeDetector"
+      }
+    } ],
+    "id" : "34",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#OnsiteAssembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OnsiteAssembly"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyWeatherboardORBrickSplipVolumatric",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyWeatherboardORBrickSplipVolumatric"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyRenderingVolumatric",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyRenderingVolumatric"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyRenderingPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyRenderingPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyWeatherboardORBrickSlipPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyWeatherboardORBrickSlipPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyRenderingCentralPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyRenderingCentralPod"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyWeatherboardORBrickSlipCentralPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyWeatherboardORBrickSlipCentralPod"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#OnsiteAssemblyRenderingStick",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "OnsiteAssemblyRenderingStick"
+      }
+    } ],
+    "subClasses" : [ "241", "179" ],
+    "id" : "108",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Procurement_and_Inventory_Control",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Procurement_and_Inventory_Control"
+    },
+    "id" : "115",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Maintenance_and_Service",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Maintenance_and_Service"
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Gold",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Gold"
+    },
+    "id" : "46",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AssignedFacilitiesAndUtilities"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities150"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#AssignedFacilitiesAndUtilities6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "AssignedFacilitiesAndUtilities6"
+      }
+    } ],
+    "id" : "106",
+    "superClasses" : [ "92" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "91", "202" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "368"
+  }, {
+    "instances" : 0,
+    "union" : [ "135", "63" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "438"
+  }, {
+    "instances" : 0,
+    "union" : [ "135", "63" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "276"
+  }, {
+    "instances" : 0,
+    "union" : [ "91", "202" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "297"
+  }, {
+    "instances" : 0,
+    "union" : [ "135", "63" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "447",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPLforPodS-A",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPLforPodS-A"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#Electrician",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Electrician"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ManualInstallation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ManualInstallation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Plumber",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Plumber"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Carpenter",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Carpenter"
+      }
+    } ],
+    "id" : "33",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "452",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "355",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "357",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "453",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "407",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "231",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "456",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "352",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#PanelCladdingsub-assembly",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "PanelCladdingsub-assembly"
+    },
+    "subClasses" : [ "118", "211" ],
+    "id" : "119",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "463",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "401",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "198",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "403",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "346",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "405",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#E_Consult",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "E_Consult"
+    },
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPLforPodFrameS-A",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPLforPodFrameS-A"
+    },
+    "id" : "76",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Coordinates",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Coordinates"
+    },
+    "id" : "202",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Terrace",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Terrace"
+    },
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Roof",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Roof"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#PitchedRoofWithSlateTileCovering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PitchedRoofWithSlateTileCovering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PitchedRoofWithClayTileCovering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PitchedRoofWithClayTileCovering"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#SedumGreenRoof",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "SedumGreenRoof"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#FlatRoofWithSinglePlyMembrane",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "FlatRoofWithSinglePlyMembrane"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#PitchedRoofWithPlasticTileCovering",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "PitchedRoofWithPlasticTileCovering"
+      }
+    } ],
+    "id" : "143",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Volumetric",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Volumetric"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation200",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation200"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation150"
+      }
+    } ],
+    "id" : "100",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DPLforPanelCladdingS-A",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DPLforPanelCladdingS-A"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#UnloadStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "UnloadStation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#TEKScrewStation2",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "TEKScrewStation2"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#ManualReworkAndCPBoardLoadStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "ManualReworkAndCPBoardLoadStation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#Rework/bufferStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Rework/bufferStation"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#CPBoardScrewStation",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "Productivity datasheet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "CPBoardScrewStation"
+      }
+    } ],
+    "id" : "211",
+    "superClasses" : [ "119" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Transport",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#Truck-A",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "Truck-A"
+      }
+    } ],
+    "subClasses" : [ "214", "217" ],
+    "id" : "146",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "475",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "397",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Stick",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Stick"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#SilverInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "SilverInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BronzeInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BronzeInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation50",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation50"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#GoldInUse",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "GoldInUse"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation80",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation80"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation6",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation6"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#BussinesOperation150",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "BussinesOperation150"
+      }
+    } ],
+    "id" : "183",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "451",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "468",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "370",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "462",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Bronze",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bronze"
+    },
+    "id" : "49",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "266",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#DirectlyProcuredMaterial",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DirectlyProcuredMaterial"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredMaterialPanelised",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredMaterialPanelised"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredMaterialVolumetric",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredMaterialVolumetric"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredMaterialStick",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredMaterialStick"
+      }
+    }, {
+      "iri" : "https://w3id.org/oho-cost#DirectlyProcuredMaterialCentralPod",
+      "baseIri" : "https://w3id.org/oho-cost",
+      "labels" : {
+        "IRI-based" : "DirectlyProcuredMaterialCentralPod"
+      }
+    } ],
+    "id" : "96",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Panel_Testing",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Panel_Testing"
+    },
+    "id" : "233",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://w3id.org/oho-cost#Location",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "subClasses" : [ "220", "138", "202" ],
+    "id" : "91",
+    "superClasses" : [ "92" ]
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "178",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "194",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "247",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "249",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "250",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "251",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "252",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "253",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "256",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "257",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "258",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "259",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "260",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "261",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "267",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "268",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "269",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "270",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "271",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "272",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "273",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "274",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "275",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "278",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "279",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "280",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "282",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "296",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "298",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "299",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "302",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "303",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "304",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "305",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "306",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "307",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "308",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "309",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "313",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "314",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "315",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "316",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "317",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "318",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "319",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "330",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "331",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "332",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "343",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "344",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "345",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "350",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "351",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "354",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "356",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "362",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "363",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "364",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "365",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "366",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "367",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "369",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "371",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "372",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "373",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "375",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "376",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "377",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "378",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "379",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "380",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "381",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "382",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "384",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "385",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "386",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "383",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "387",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "388",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "389",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "390",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "391",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "392",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "393",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "394",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "395",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "396",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "398",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "399",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "400",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "402",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "404",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "406",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "408",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "409",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "410",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "411",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "412",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "413",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "414",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "415",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "416",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "417",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "418",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "419",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "420",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "421",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "422",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "423",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "424",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "425",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "426",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "427",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "428",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "429",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "430",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "431",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "432",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "433",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "434",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "435",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "436",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "437",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "439",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "440",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "441",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "442",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "443",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "444",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "445",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "446",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "448",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "449",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "450",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "454",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "455",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "457",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "458",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "459",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "460",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "461",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "464",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "465",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "466",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "467",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "469",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "470",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "471",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "472",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "473",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "474",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "476",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "477",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "478",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "479",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "480",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "481",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "482",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "483",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "484",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "1"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMethod",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasMethod"
+    },
+    "domain" : "9",
+    "attributes" : [ "symmetric", "functional", "object" ],
+    "id" : "8"
+  }, {
+    "range" : "7",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasOffsiteConstructionCostC3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasOffsiteConstructionCostC3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "13"
+  }, {
+    "range" : "7",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "21",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasWidth",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasWidth"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "range" : "21",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedFacilitiesUtilitiesCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasAssignedFacilitiesUtilitiesCost"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Per month"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDistancePerJourney",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasDistancePerJourney"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasUnitRate",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "hasUnitRate"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "43",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "43",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "53",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "53",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "53",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "63",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "63",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "73",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "73",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasWallArea",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "hasWallArea"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesPerBatch",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesPerBatch"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "81"
+  }, {
+    "range" : "53",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "53",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#isInterfaceOf",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isInterfaceOf"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#SA2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "SA2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "range" : "92",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#SA3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "SA3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "range" : "92",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#SA4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "SA4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "97"
+  }, {
+    "range" : "92",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#SA5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "SA5"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "101"
+  }, {
+    "range" : "92",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "92",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "92",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "111",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "111",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "53",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#isFinishingActivity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isFinishingActivity"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasActivity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasActivity"
+    },
+    "domain" : "9",
+    "subproperty" : [ "121" ],
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#SA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "SA1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "122"
+  }, {
+    "range" : "92",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "92",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "92",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMaterialUnitRate",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "hasMaterialUnitRate"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "130"
+  }, {
+    "range" : "92",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "92",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "92",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "92",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasCount",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasCount"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "range" : "92",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "92",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "92",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "92",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasActivityCostFromStart",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasActivityCostFromStart"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDepreciationValue",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasDepreciationValue"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#isNextActivityOf",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isNextActivityOf"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasRoofCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasRoofCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDirectlyProcuredMaterialsCostSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "hasDirectlyProcuredMaterialsCostSA1"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Directly procured materials (Ref. Eq. 6)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasEnergyCostPerAnnum",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "hasEnergyCostPerAnnum"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "C5-AC2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "C5-AC1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "172"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasInUseCostC6",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasInUseCostC6"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesInProjectSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "163",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesInProjectSA1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "178"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesInProjectSA2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesInProjectSA2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "180"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPeriodofProduction",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "hasPeriodofProduction"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC1-SA4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "C5-AC1-SA4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC1-SA3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "C5-AC1-SA3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "190"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC1-SA5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "C5-AC1-SA5"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasOpeningArea",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "hasOpeningArea"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "194"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC1-SA2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "C5-AC1-SA2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "195"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC1-SA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "C5-AC1-SA1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "197"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedFacilitiesUtilitiesCostSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "hasAssignedFacilitiesUtilitiesCostSA1"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "199"
+  }, {
+    "range" : "91",
+    "domain" : "202",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "119",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "119",
+    "domain" : "211",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "146",
+    "domain" : "214",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "146",
+    "domain" : "217",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "91",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "91",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#workingOnActivity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "workingOnActivity"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "224"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSemiDetached",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "hasSemiDetached"
+    },
+    "domain" : "226",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "225"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasQuantity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "229",
+    "label" : {
+      "IRI-based" : "hasQuantity"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "228"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMaterialCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "231",
+    "label" : {
+      "IRI-based" : "hasMaterialCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "230"
+  }, {
+    "range" : "21",
+    "domain" : "233",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMaxWeightCapacity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "hasMaxWeightCapacity"
+    },
+    "domain" : "146",
+    "attributes" : [ "datatype" ],
+    "id" : "234"
+  }, {
+    "range" : "21",
+    "domain" : "238",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "108",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "108",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "domain" : "31",
+    "range" : "31",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "30",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDirectLabourCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "246",
+    "label" : {
+      "IRI-based" : "hasDirectLabourCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "245"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLabourHrRate",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "hasLabourHrRate"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "247"
+  }, {
+    "domain" : "29",
+    "range" : "29",
+    "id" : "249",
+    "label" : {
+      "IRI-based" : "29",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "73",
+    "range" : "73",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "28",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "59",
+    "range" : "59",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "25",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "233",
+    "range" : "233",
+    "id" : "252",
+    "label" : {
+      "IRI-based" : "24",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "137",
+    "range" : "182",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "27",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPodFrameSubAssemblyCostSA3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "255",
+    "label" : {
+      "IRI-based" : "hasPodFrameSubAssemblyCostSA3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "254"
+  }, {
+    "domain" : "182",
+    "range" : "182",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "26",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "135",
+    "range" : "182",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "21",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "131",
+    "range" : "131",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "20",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "111",
+    "range" : "111",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "23",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "119",
+    "range" : "119",
+    "id" : "260",
+    "label" : {
+      "IRI-based" : "22",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasTotalAssignedIndividualConsultantCostPerProduct",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "hasTotalAssignedIndividualConsultantCostPerProduct"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "The total of Assigned Individual consultant and testing cost for  house development per product type"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "261"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedTotalCustomerRelationsCostPP",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "hasAssignedTotalCustomerRelationsCostPP"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Assigned total cost of customer relations per project"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDimensions",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "266",
+    "label" : {
+      "IRI-based" : "hasDimensions"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "265"
+  }, {
+    "domain" : "179",
+    "range" : "179",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "18",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "241",
+    "range" : "241",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "17",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "12",
+    "range" : "12",
+    "id" : "269",
+    "label" : {
+      "IRI-based" : "19",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "3",
+    "range" : "3",
+    "id" : "270",
+    "label" : {
+      "IRI-based" : "14",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "46",
+    "range" : "46",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "13",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "32",
+    "range" : "32",
+    "id" : "272",
+    "label" : {
+      "IRI-based" : "16",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "6",
+    "range" : "6",
+    "id" : "273",
+    "label" : {
+      "IRI-based" : "15",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "56",
+    "range" : "56",
+    "id" : "274",
+    "label" : {
+      "IRI-based" : "10",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasTerrace",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "277",
+    "label" : {
+      "IRI-based" : "hasTerrace"
+    },
+    "domain" : "276",
+    "attributes" : [ "datatype" ],
+    "id" : "275"
+  }, {
+    "domain" : "20",
+    "range" : "20",
+    "id" : "278",
+    "label" : {
+      "IRI-based" : "12",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "21",
+    "range" : "21",
+    "id" : "279",
+    "label" : {
+      "IRI-based" : "11",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSubContractorCostSA4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "hasSubContractorCostSA4"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Eq. 10"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "280"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSubContractorCostSA3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "hasSubContractorCostSA3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "282"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMaterialQuantitySA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "hasMaterialQuantitySA1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "285"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasToolMaintenanceCostTS4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "288",
+    "label" : {
+      "IRI-based" : "hasToolMaintenanceCostTS4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "287"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasUsefulLife",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "294",
+    "label" : {
+      "IRI-based" : "hasUsefulLife"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "293"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#latitude",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "latitude"
+    },
+    "domain" : "297",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "296"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLabourRate",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasLabourRate"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "298"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPanelCladdingSubAssemblyCostSA2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "hasPanelCladdingSubAssemblyCostSA2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "299"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLCCPerNo",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasLCCPerNo"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Estimated Life Cycle Cost per No. of Type 1  house"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "301"
+  }, {
+    "domain" : "116",
+    "range" : "116",
+    "id" : "302",
+    "label" : {
+      "IRI-based" : "36",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "238",
+    "range" : "238",
+    "id" : "303",
+    "label" : {
+      "IRI-based" : "35",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "100",
+    "range" : "182",
+    "id" : "304",
+    "label" : {
+      "IRI-based" : "37",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "17",
+    "range" : "17",
+    "id" : "305",
+    "label" : {
+      "IRI-based" : "32",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "115",
+    "range" : "115",
+    "id" : "306",
+    "label" : {
+      "IRI-based" : "31",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasBatch",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasBatch"
+    },
+    "domain" : "135",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "307"
+  }, {
+    "domain" : "78",
+    "range" : "78",
+    "id" : "308",
+    "label" : {
+      "IRI-based" : "34",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "183",
+    "range" : "182",
+    "id" : "309",
+    "label" : {
+      "IRI-based" : "33",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasIndirectMaterialCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasIndirectMaterialCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "313"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPodSubAssembyCostSA4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "hasPodSubAssembyCostSA4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "314"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasWeight",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "hasWeight"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "315"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDiameter",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "209",
+    "label" : {
+      "IRI-based" : "hasDiameter"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "316"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNextActivity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasNextActivity"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "317"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDirectlyProcuredLabourCostSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "212",
+    "label" : {
+      "IRI-based" : "hasDirectlyProcuredLabourCostSA1"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Directly procured labour (Ref. Eq. 7)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "318"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasCostumerRelationCostAC1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "hasCostumerRelationCostAC1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "319"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPackagingProtectionCostSA5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "hasPackagingProtectionCostSA5"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "330"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasBussinesOperationCostC1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "hasBussinesOperationCostC1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "331"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesBatchFacilities",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "171",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesBatchFacilities"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "332"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedTotalProcurementInventoryCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "hasAssignedTotalProcurementInventoryCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "343"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#usesResources",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "usesResources"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "344"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasModularProductionCostAC5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "346",
+    "label" : {
+      "IRI-based" : "hasModularProductionCostAC5"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Eq. 5) Estimated Cost for Modular Production per No. of Type 1  house (?AC?_5):"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "345"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "350"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedPlantEquipmentCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "352",
+    "label" : {
+      "IRI-based" : "hasAssignedPlantEquipmentCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "351"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfJourneyPerHouse",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "355",
+    "label" : {
+      "IRI-based" : "hasNoOfJourneyPerHouse"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "354"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasFactoryAdministrationCostAC4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "357",
+    "label" : {
+      "IRI-based" : "hasFactoryAdministrationCostAC4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "356"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPeriodOfProduction",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "300",
+    "label" : {
+      "IRI-based" : "hasPeriodOfProduction"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "362"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasProductionEngineeringManagementSupportCostAC6",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "292",
+    "label" : {
+      "IRI-based" : "hasProductionEngineeringManagementSupportCostAC6"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "363"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasActivityCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "289",
+    "label" : {
+      "IRI-based" : "hasActivityCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "364"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedCostPerDistance",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "291",
+    "label" : {
+      "IRI-based" : "hasAssignedCostPerDistance"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "365"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMaterialUnitRateSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "337",
+    "label" : {
+      "IRI-based" : "hasMaterialUnitRateSA1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "366"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#longitude",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "336",
+    "label" : {
+      "IRI-based" : "longitude"
+    },
+    "domain" : "368",
+    "attributes" : [ "datatype" ],
+    "id" : "367"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasWaitingWaste",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "370",
+    "label" : {
+      "IRI-based" : "hasWaitingWaste"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "369"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedTotalFactoryAdministrationCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "324",
+    "label" : {
+      "IRI-based" : "hasAssignedTotalFactoryAdministrationCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "371"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasStation",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasStation"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "372"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#NoOfHousesPerProjectAC",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "359",
+    "label" : {
+      "IRI-based" : "NoOfHousesPerProjectAC"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Different from no. of houses per Project NoOfHousesPerProject"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "373"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasTransportationCostC4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "347",
+    "label" : {
+      "IRI-based" : "hasTransportationCostC4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "375"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasModuleAssemblyCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "348",
+    "label" : {
+      "IRI-based" : "hasModuleAssemblyCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "376"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#TS3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "341",
+    "label" : {
+      "IRI-based" : "TS3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "377"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#TS4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "342",
+    "label" : {
+      "IRI-based" : "TS4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "378"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLabourCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "340",
+    "label" : {
+      "IRI-based" : "hasLabourCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "379"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasIndirectLabourCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "339",
+    "label" : {
+      "IRI-based" : "hasIndirectLabourCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "380"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLifePlantEquipment",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasLifePlantEquipment"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "381"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasStartingActivity",
+    "inverse" : "383",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasStartingActivity"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "382"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasToolQuantity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasToolQuantity"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "384"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#TS1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "TS1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "385"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#TS2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "TS2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "386"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#isStartingActivity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isStartingActivity"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "383"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasOverheadCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasOverheadCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "387"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSubActivity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasSubActivity"
+    },
+    "superproperty" : [ "120" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesPPTS2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesPPTS2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "388"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesPPTS3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "218",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesPPTS3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "389"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesPPTS1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "221",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesPPTS1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "390"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesPPTS4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesPPTS4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "391"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#composedOf",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "composedOf"
+    },
+    "domain" : "9",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "392"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#isComponentPartOf",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isComponentPartOf"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "393"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDurationInMins",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "hasDurationInMins"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "394"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasArea",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "hasArea"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "395"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLabourQuantity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "397",
+    "label" : {
+      "IRI-based" : "hasLabourQuantity"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "396"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasProductionManagementCostTS2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "174",
+    "label" : {
+      "IRI-based" : "hasProductionManagementCostTS2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "398"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedTotalPlanningSchedulingCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "hasAssignedTotalPlanningSchedulingCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "399"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSitePreliminariesCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "401",
+    "label" : {
+      "IRI-based" : "hasSitePreliminariesCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "400"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSurfaceArea",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "403",
+    "label" : {
+      "IRI-based" : "hasSurfaceArea"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "402"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPlantEquipmentCostSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "405",
+    "label" : {
+      "IRI-based" : "hasPlantEquipmentCostSA1"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Plant and equipment (Ref. Eq. 8)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "404"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasRentCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "407",
+    "label" : {
+      "IRI-based" : "hasRentCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "406"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasWorker",
+    "inverse" : "224",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasWorker"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "408"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AC6",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "295",
+    "label" : {
+      "IRI-based" : "AC6"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "409"
+  }, {
+    "range" : "32",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "410"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "411"
+  }, {
+    "range" : "32",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "412"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasOnsiteWorksCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "290",
+    "label" : {
+      "IRI-based" : "hasOnsiteWorksCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "413"
+  }, {
+    "range" : "32",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "414"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPeriodOfProductionFacilities",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "284",
+    "label" : {
+      "IRI-based" : "hasPeriodOfProductionFacilities"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "415"
+  }, {
+    "range" : "32",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "416"
+  }, {
+    "range" : "92",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "417"
+  }, {
+    "range" : "92",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "418"
+  }, {
+    "range" : "92",
+    "domain" : "181",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "419"
+  }, {
+    "range" : "92",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "420"
+  }, {
+    "range" : "92",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "421"
+  }, {
+    "range" : "32",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "422"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedSiteStaffAndLabourCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "334",
+    "label" : {
+      "IRI-based" : "hasAssignedSiteStaffAndLabourCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "423"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasOnsiteSupportCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "333",
+    "label" : {
+      "IRI-based" : "hasOnsiteSupportCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "424"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC2-SA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "335",
+    "label" : {
+      "IRI-based" : "C5-AC2-SA1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "425"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AC5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "AC5"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "426"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "326",
+    "label" : {
+      "IRI-based" : "C5"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "427"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AC4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "329",
+    "label" : {
+      "IRI-based" : "AC4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "428"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C6",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "328",
+    "label" : {
+      "IRI-based" : "C6"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "429"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "323",
+    "label" : {
+      "IRI-based" : "C3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "430"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AC3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "322",
+    "label" : {
+      "IRI-based" : "AC3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "431"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasProcurementInventoryCostAC3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "325",
+    "label" : {
+      "IRI-based" : "hasProcurementInventoryCostAC3"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Planning and scheduling\t(Assigned total cost of planning and scheduling per project)/(No.of houses in the Project) (Project dependent)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "432"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AC2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "321",
+    "label" : {
+      "IRI-based" : "AC2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "433"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C4",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "320",
+    "label" : {
+      "IRI-based" : "C4"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "434"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "312",
+    "label" : {
+      "IRI-based" : "C1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "435"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#AC1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "310",
+    "label" : {
+      "IRI-based" : "AC1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "436"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "311",
+    "label" : {
+      "IRI-based" : "C2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "437"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#NoOfHousesPerProject",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "360",
+    "label" : {
+      "IRI-based" : "NoOfHousesPerProject"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "439"
+  }, {
+    "range" : "31",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "440"
+  }, {
+    "range" : "31",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "441"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDetached",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "361",
+    "label" : {
+      "IRI-based" : "hasDetached"
+    },
+    "domain" : "438",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "442"
+  }, {
+    "range" : "32",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "443"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#C5-AC2-SA2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "358",
+    "label" : {
+      "IRI-based" : "C5-AC2-SA2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "444"
+  }, {
+    "range" : "32",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "445"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasProductionEngineeringCostTS1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "353",
+    "label" : {
+      "IRI-based" : "hasProductionEngineeringCostTS1"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "446"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasOnsiteCostC5",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "349",
+    "label" : {
+      "IRI-based" : "hasOnsiteCostC5"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "448"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasSitePreparationCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "338",
+    "label" : {
+      "IRI-based" : "hasSitePreparationCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "449"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasMaterialQuantity",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "451",
+    "label" : {
+      "IRI-based" : "hasMaterialQuantity"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "450"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDesignEngineeringCostC2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "374",
+    "label" : {
+      "IRI-based" : "hasDesignEngineeringCostC2"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "454"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLabourContent",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasLabourContent"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "455"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPlanningSchedulingCostAC2",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasPlanningSchedulingCostAC2"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Customer Relations\t(Assigned total cost of customer relations per project)/(No.of houses in the Project)\n(Project dependent – i.e. the cost is based on the project)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "457"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasComponentPart",
+    "inverse" : "393",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasComponentPart"
+    },
+    "domain" : "9",
+    "attributes" : [ "transitive", "object" ],
+    "id" : "458"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPlantEquipmentCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasPlantEquipmentCost"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Eq. 8"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "459"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasHeight",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "hasHeight"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "460"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasWaste",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "462",
+    "label" : {
+      "IRI-based" : "hasWaste"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "461"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDecorationCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "hasDecorationCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "464"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#HasSiteStaffAndLabourCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "242",
+    "label" : {
+      "IRI-based" : "HasSiteStaffAndLabourCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "465"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedSitePreliminariesCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "hasAssignedSitePreliminariesCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "466"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasProcessTime",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "468",
+    "label" : {
+      "IRI-based" : "hasProcessTime"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "467"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPlantDepreciationCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "hasPlantDepreciationCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "469"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasQAQCCostTS3",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "206",
+    "label" : {
+      "IRI-based" : "hasQAQCCostTS3"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "470"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasThickness",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "184",
+    "label" : {
+      "IRI-based" : "hasThickness"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "471"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoAnticipatedNB",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "hasNoAnticipatedNB"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Anticipated no.of houses per product type per batch (NB)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "472"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPlantDayRate",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "hasPlantDayRate"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "473"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasLength",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "hasLength"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "474"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasAssignedBusinessOperationCostPP",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "153",
+    "label" : {
+      "IRI-based" : "hasAssignedBusinessOperationCostPP"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "476"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasPanelFrameSubAssemblyCostSA1",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "hasPanelFrameSubAssemblyCostSA1"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Sub-activity (SA)\tCost Calculation\nPanel frame sub-assembly\tDirectly procured materials (Ref. Eq. 6) + Directly procured labour (Ref. Eq. 7) + Plant and equipment (Ref. Eq. 8) + Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "477"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDirectMaterialCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "463",
+    "label" : {
+      "IRI-based" : "hasDirectMaterialCost"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "478"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDistance",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "475",
+    "label" : {
+      "IRI-based" : "hasDistance"
+    },
+    "domain" : "135",
+    "comment" : {
+      "undefined" : "Distance between factory and site. Site is the location estimated for the project implemtation. The factory postcode is fixed and the site postcode is given from the user of the estimation tool."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "479"
+  }, {
+    "domain" : "24",
+    "range" : "24",
+    "id" : "480",
+    "label" : {
+      "IRI-based" : "9",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfOperatives",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "456",
+    "label" : {
+      "IRI-based" : "hasNoOfOperatives"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "481"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasNoOfHousesBatch",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "452",
+    "label" : {
+      "IRI-based" : "hasNoOfHousesBatch"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "482"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasDirectlyProcuredLabourCost",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "453",
+    "label" : {
+      "IRI-based" : "hasDirectlyProcuredLabourCost"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Eq. 7"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "483"
+  }, {
+    "iri" : "https://w3id.org/oho-cost#hasCostFromStart",
+    "baseIri" : "https://w3id.org/oho-cost",
+    "range" : "447",
+    "label" : {
+      "IRI-based" : "hasCostFromStart"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "484"
+  } ]
+}
